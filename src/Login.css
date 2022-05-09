@@ -1,0 +1,65 @@
+.login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #363a3f;
+}
+
+.login > button{
+    width: 300px;
+    background-color: #738adb;
+    color: #eff2f5;
+    font-weight: 800;
+}
+
+.login-button-first{
+    width: 300px;
+    background-color: #738adb;
+    color: #eff2f5;
+    font-weight: 800;
+}
+
+.login > button:hover{
+    width: 300px;
+    background-color: black;
+    color: #eff2f5;
+    font-weight: 800;
+}
+
+/*-----*/
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+  
+  .text {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .dont-remember-password-text {
+    font-size: 1.5rem;
+    color: #738adb;
+  }
+  
+  .no-account-text {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .register-text {
+    margin-left: 1vw;
+    font-size: 1.5rem;
+    color: #738adb;
+  }
+
+  .inputLogin{
+      width: 300px;
+      padding: 8px;
+      border-radius: 3px;
+      border: hidden;
+      outline-width: 0;
+  }
